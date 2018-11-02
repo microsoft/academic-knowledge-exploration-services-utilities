@@ -8,7 +8,7 @@ date: 11/2/2018
 
 Utility tools and scripts for interacting with Microsoft Academic Knowledge Exploration Service (MAKES).
 
-For details about MAKES (including information about the utilities in this repository), see our [documentation site].(https://docs.microsoft.com/en-us/academic-services/knowledge-exploration-service/)
+For details about MAKES (including information about the utilities in this repository), see our [documentation site](https://docs.microsoft.com/en-us/academic-services/knowledge-exploration-service/).
 
 ## Powershell scripts
 

@@ -8,6 +8,11 @@ date: 11/2/2018
 
 Deploys a Microsoft Academic Knowledge Exploration Service (MAKES) engine to a target Azure Cloud Service.
 
+## Prerequisites
+
+* [Azure account + subscription](https://azure.microsoft.com/en-us/get-started) that has been [configured to receive MAKES engine builds](https://docs.microsoft.com/en-us/academic-services/knowledge-exploration-service/get-started-setup-provisioning)
+* [Azure Service Management Powershell cmdlets](https://docs.microsoft.com/en-us/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0)
+
 ## Description
 
 The Deploy-Makes-Engine cmdlet deploys a MAKES engine to a target Azure Cloud Service.
