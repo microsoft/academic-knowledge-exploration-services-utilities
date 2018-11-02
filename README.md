@@ -1,5 +1,22 @@
+---
+title: Microsoft Academic Knowledge Exploration Service Utilities
+description: Utility tools and scripts for interacting with Microsoft Academic Knowledge Exploration Service (MAKES)
+date: 11/2/2018
+---
 
-# Contributing
+# Microsoft Academic Knowledge Exploration Service Utilities
+
+Utility tools and scripts for interacting with Microsoft Academic Knowledge Exploration Service (MAKES).
+
+For details about MAKES (including information about the utilities in this repository), see our [documentation site].(https://docs.microsoft.com/en-us/academic-services/knowledge-exploration-service/)
+
+## Powershell scripts
+
+### [Deploy-MakesEngine](deploy-makes-engine.md)
+
+Deploys a Microsoft Academic Knowledge Exploration Service (MAKES) engine to a target Azure Cloud Service.
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
