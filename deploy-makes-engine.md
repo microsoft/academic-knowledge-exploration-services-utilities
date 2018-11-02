@@ -23,8 +23,7 @@ If the target cloud service already exists and has a production deployment, the 
 This command would deploy the 2018-10-12 version of the MAKES semantic interpretation engine to the cloud service "contoso-makes-semantic" with a E32_v3 instance.
 
 ```powershell
-Deploy-MakesEngine.ps1 -StorageAccountName makesascontoso -DataVersion 2018-10-12 -EngineType semantic -InstanceType large -Ser
-viceName contoso-makes-semantic
+Deploy-MakesEngine.ps1 -StorageAccountName makesascontoso -DataVersion 2018-10-12 -EngineType semantic -InstanceType large -ServiceName contoso-makes-semantic
 ```
 
 ### Example 2: Deploy entity engine to small cloud service instance
@@ -32,8 +31,7 @@ viceName contoso-makes-semantic
 This command would deploy the 2018-10-12 version of the MAKES entity engine to the cloud service "contoso-makes-entity" with a D3_v2 instance.
 
 ```powershell
-Deploy-MakesEngine.ps1 -StorageAccountName makesascontoso -DataVersion 2018-10-05 -EngineType entity -InstanceType small -Ser
-viceName contoso-makes-entity
+Deploy-MakesEngine.ps1 -StorageAccountName makesascontoso -DataVersion 2018-10-05 -EngineType entity -InstanceType small -ServiceName contoso-makes-entity
 ```
 
 ## Required Parameters
